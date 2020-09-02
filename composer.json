@@ -1,0 +1,56 @@
+{
+  "name": "zaaz/foundation",
+  "description": "Zoftware as a Zervice",
+  "license": "MIT",
+  "keywords": [
+    "support"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Patrick Curl",
+      "email": "patrickwcurl@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "felixkiss/uniquewith-validator": "^3.4.0",
+    "illuminate/routing": "^7.0.0",
+    "illuminate/support": "^7.0.0",
+    "illuminate/validation": "^7.0.0",
+    "spatie/laravel-schemaless-attributes": "^1.7.0",
+    "spatie/laravel-sluggable": "^2.5",
+    "spatie/laravel-translatable": "^4.4",
+    "watson/validating": "^5.0.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0",
+    "phpunit/phpunit": "^9.0.0"
+  },
+  "autoload": {
+    "files": ["src/helpers.php"],
+    "psr-4": {
+      "Zaaz\\Foundation\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zaaz\\Foundation\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zaaz\\Foundation\\FoundationServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
