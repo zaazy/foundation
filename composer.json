@@ -1,5 +1,5 @@
 {
-  "name": "zaaz/foundation",
+  "name": "zaazy/foundation",
   "description": "Zoftware as a Zervice",
   "license": "MIT",
   "keywords": [
@@ -30,12 +30,12 @@
   "autoload": {
     "files": ["src/helpers.php"],
     "psr-4": {
-      "Zaaz\\Foundation\\": "src"
+      "Zaazy\\Foundation\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Zaaz\\Foundation\\Tests\\": "tests"
+      "Zaazy\\Foundation\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -44,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Zaaz\\Foundation\\FoundationServiceProvider"
+        "Zaazy\\Foundation\\FoundationServiceProvider"
       ]
     }
   },

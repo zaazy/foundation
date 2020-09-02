@@ -1,10 +1,10 @@
 <?php
 
-namespace Zaaz\Support\Tests;
+namespace Zaazy\Support\Tests;
 
-use Zaaz\Support\Facades\Support;
-use Zaaz\Support\ServiceProvider;
 use Orchestra\Testbench\TestCase;
+use Zaazy\Support\Facades\Support;
+use Zaazy\Support\ServiceProvider;
 
 class SupportTest extends TestCase
 {

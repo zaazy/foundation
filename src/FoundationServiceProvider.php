@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zaaz\Foundation;
+namespace Zaazy\Foundation;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Validator;

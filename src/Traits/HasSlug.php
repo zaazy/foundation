@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zaaz\Foundation\Traits;
+namespace Zaazy\Foundation\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Sluggable\HasSlug as BaseHasSlug;

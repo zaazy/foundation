@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaaz\Foundation;
+namespace Zaazy\Foundation;
 
 class Foundation
 {

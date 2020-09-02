@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zaaz\Foundation\Traits;
+namespace Zaazy\Foundation\Traits;
 
 use Watson\Validating\Injectors\UniqueWithInjector;
 use Watson\Validating\ValidatingTrait as BaseValidatingTrait;

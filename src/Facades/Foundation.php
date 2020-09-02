@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaaz\Foundation\Facades;
+namespace Zaazy\Foundation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

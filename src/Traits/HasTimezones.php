@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zaaz\Foundation\Traits;
+namespace Zaazy\Foundation\Traits;
 
 use DateTimeZone;
 use Illuminate\Support\Arr;
