@@ -6,7 +6,7 @@ use Orchestra\Testbench\TestCase;
 use Zaazy\Support\Facades\Support;
 use Zaazy\Support\ServiceProvider;
 
-class SupportTest extends TestCase
+class FoundationTest extends TestCase
 {
     protected function getPackageProviders($app)
     {
